@@ -1,0 +1,11 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with ();
+.v-theme--customDark {
+  background: linear-gradient(180deg, #18001E 0%, #1C0035 29.5%, #1B022B 75.07%, #0F0022 95%);
+}
