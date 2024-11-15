@@ -6,9 +6,16 @@
 
 // https://vuetifyjs.com/features/sass-variables/`
 // @use 'vuetify/settings' with ();
-html, body {
+html,
+body {
   font-family: Inter;
 }
-.v-theme--customDark {
-  background: linear-gradient(180deg, #18001E 0%, #1C0035 29.5%, #1B022B 75.07%, #0F0022 95%);
+.v-layout.v-theme--customDark {
+  background: linear-gradient(180deg, #18001e 0%, #1c0035 29.5%, #1b022b 75.07%, #0f0022 95%);
+}
+
+.hover#FF5A07 {
+  &:hover {
+    color: #ff5a07;
+  }
 }
