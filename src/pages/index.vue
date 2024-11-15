@@ -17,5 +17,6 @@ const currentTheme = computed(() => theme.global.name.value)
 
 function toggleTheme () {
   theme.global.name.value = theme.global.current.value.dark ? 'customLight' : 'customDark'
+  localStorage.setItem('theme', currentTheme.value)
 }
 </script>
